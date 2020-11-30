@@ -3,10 +3,10 @@
 // Wynik: Ala Ma Kota A Kota Nie Ma.
 
 function makeFirstUpper(text) {
-  let result = 'Ala ma kota';
+  let result = "";
   return result;
 }
 
-document.getElementById('app').innerHTML = makeFirstUpper(
-  'ala ma kota a kota nie ma.'
+document.getElementById("app").innerHTML = makeFirstUpper(
+  "ala ma kota a kota nie ma."
 );
